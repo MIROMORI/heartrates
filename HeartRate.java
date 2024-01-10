@@ -89,11 +89,11 @@ public class HeartRate {
 
     public void maxHeartRate()
     {
-        System.out.println("Max heart rate: " + (220 - age()));
+        System.out.println(this.getFirstname() + " " + this.getLastname() + " max heart rate: " + (220 - age()));
     }
 
     public void targetHeartRate()
     {
-        System.out.println("Target heart rate: " + ((220 - age())/2) + "-" + (int) ((220 - age()) * 0.85));
+        System.out.println(this.getFirstname() + " " + this.getLastname() + " target heart rate: " + ((220 - age())/2) + "-" + (int) ((220 - age()) * 0.85));
     }
 }
